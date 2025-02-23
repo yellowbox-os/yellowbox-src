@@ -1,3 +1,6 @@
 [submodule "libobjc2"]
 	path = libobjc2
 	url = https://github.com/gnustep/libobjc2.git
+[submodule "libs-back"]
+	path = libs-back
+	url = https://github.com/gnustep/libs-back.git

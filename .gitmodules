@@ -7,3 +7,6 @@
 [submodule "libs-base"]
 	path = libs-base
 	url = https://github.com/gnustep/libs-base.git
+[submodule "libs-gui"]
+	path = libs-gui
+	url = https://github.com/gnustep/libs-gui.git

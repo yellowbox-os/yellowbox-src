@@ -10,3 +10,6 @@
 [submodule "libs-gui"]
 	path = libs-gui
 	url = https://github.com/gnustep/libs-gui.git
+[submodule "tools-make"]
+	path = tools-make
+	url = https://github.com/gnustep/tools-make.git

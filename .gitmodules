@@ -4,3 +4,6 @@
 [submodule "libs-back"]
 	path = libs-back
 	url = https://github.com/gnustep/libs-back.git
+[submodule "libs-base"]
+	path = libs-base
+	url = https://github.com/gnustep/libs-base.git

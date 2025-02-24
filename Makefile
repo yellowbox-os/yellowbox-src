@@ -27,7 +27,7 @@ install: check_root
 	    --with-config-file=/System/Library/Preferences/GNUstep.conf \
 	    --with-library-combo=ng-gnu-gnu \
 	  && gmake || exit 1 && gmake install; \
-	  . /System/Makefiles/GNUstep.sh; \
+	  . /System/Library/Makefiles/GNUstep.sh; \
 	  mkdir -p $$WORKDIR/libobjc2/Build; \
 	  cd $$WORKDIR/libobjc2/Build && pwd && ls && cmake .. \
 	    -DGNUSTEP_INSTALL_TYPE=SYSTEM \

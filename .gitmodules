@@ -19,3 +19,7 @@
 [submodule "plugins-themes-nesedahrik"]
 	path = plugins-themes-nesedahrik
 	url = https://github.com/yellowbox-os/plugins-themes-nesedahrik.git
+[submodule "gs-desktop"]
+	path = gs-desktop
+	url = https://github.com/yellowbox-os/gs-desktop
+	branch = working-firefox-wrapper

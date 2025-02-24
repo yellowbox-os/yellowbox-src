@@ -16,3 +16,6 @@
 [submodule "apps-gworkspace"]
 	path = apps-gworkspace
 	url = https://github.com/gnustep/apps-gworkspace.git
+[submodule "plugins-themes-nesedahrik"]
+	path = plugins-themes-nesedahrik
+	url = https://github.com/gnustep/plugins-themes-nesedahrik.git

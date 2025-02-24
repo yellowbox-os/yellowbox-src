@@ -57,6 +57,8 @@ local: check_root
           echo "WORKDIR is set to: $$WORKDIR"; \
           cd $$WORKDIR/gs-desktop/Applications/WrapperFactory && gmake && gmake install; \
 	  mkdir /Local/Applications/Firefox.app && cp -R $$WORKDIR/gs-desktop/extra-apps/Firefox.app/* /Local/Applications/Firefox.app/; \
+          cd $$WORKDIR/gs-terminal/TerminalKit && gmake && gmake install; \
+          cd $$WORKDIR/gs-terminal/Terminal && gmake && gmake install; \
         fi;
 
 

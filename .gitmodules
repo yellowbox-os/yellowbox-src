@@ -26,3 +26,6 @@
 [submodule "gap"]
 	path = gap
 	url = https://github.com/gnustep/gap
+[submodule "gs-terminal"]
+	path = gs-terminal
+	url = https://github.com/yellowbox-os/gs-terminal

@@ -56,6 +56,7 @@ local: check_root
           echo "GNUSTEP_INSTALLATION_DOMAIN is set to: $$GNUSTEP_INSTALLATION_DOMAIN"; \
           echo "WORKDIR is set to: $$WORKDIR"; \
           cd $$WORKDIR/gs-desktop/Applications/WrapperFactory && gmake && gmake install; \
+	  mkdir /Local/Applications/Firefox.app && cp -R $$WORKDIR/gs-desktop/extra-apps/Firefox.app/* /Local/Applications/Firefox.app/; \
         fi;
 
 

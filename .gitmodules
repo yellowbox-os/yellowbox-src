@@ -23,3 +23,9 @@
 	path = gs-desktop
 	url = https://github.com/yellowbox-os/gs-desktop
 	branch = working-firefox-wrapper
+[submodule "gs-textedit"]
+	path = gs-textedit
+	url = https://github.com/yellowbox-os/gs-textedit
+[submodule "gap"]
+	path = gap
+	url = https://github.com/gnustep/gap

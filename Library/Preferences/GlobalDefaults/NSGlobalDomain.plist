@@ -6,5 +6,7 @@
     <string>NSMacintoshInterfaceStyle</string>
     <key>NSMenuInterfaceStyle</key>
     <string>NSMacintoshInterfaceStyle</string>
+    <key>GSTheme</key>
+    <string>Nesedah</string>
 </dict>
 </plist>

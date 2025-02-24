@@ -40,6 +40,7 @@ install: check_root
 	  cd $$WORKDIR/libs-gui && ./configure && gmake -j"${CPUS}" || exit 1 || exit 1 && gmake install; \
 	  cd $$WORKDIR/libs-back && export fonts=no && ./configure && gmake -j"${CPUS}" || exit 1 && gmake install; \
 	  cd $$WORKDIR/apps-gworkspace && ./configure && gmake && gmake install; \
+          cd $$WORKDIR/plugins-themes-nesedahrik/NesedahRik.theme && gmake && gmake install; \
 	fi;
 
 # Define the uninstall target

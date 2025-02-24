@@ -29,3 +29,6 @@
 [submodule "gs-terminal"]
 	path = gs-terminal
 	url = https://github.com/yellowbox-os/gs-terminal
+[submodule "gs-textedit"]
+	path = gs-textedit
+	url = https://github.com/onflapp/gs-textedit

@@ -59,6 +59,7 @@ local: check_root
 	  mkdir /Local/Applications/Firefox.app && cp -R $$WORKDIR/gs-desktop/extra-apps/Firefox.app/* /Local/Applications/Firefox.app/; \
           cd $$WORKDIR/gs-terminal/TerminalKit && gmake && gmake install; \
           cd $$WORKDIR/gs-terminal/Terminal && gmake && gmake install; \
+	  cd $$WORKDIR/gs-textedit && gmake && gmake install; \
         fi;
 
 

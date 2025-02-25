@@ -13,9 +13,6 @@
 [submodule "tools-make"]
 	path = tools-make
 	url = https://github.com/gnustep/tools-make.git
-[submodule "apps-gworkspace"]
-	path = apps-gworkspace
-	url = https://github.com/gnustep/apps-gworkspace.git
 [submodule "plugins-themes-nesedahrik"]
 	path = plugins-themes-nesedahrik
 	url = https://github.com/yellowbox-os/plugins-themes-nesedahrik.git
@@ -32,3 +29,6 @@
 [submodule "gs-textedit"]
 	path = gs-textedit
 	url = https://github.com/onflapp/gs-textedit
+[submodule "workspace"]
+	path = workspace
+	url = https://github.com/yellowbox-os/workspace.git

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.>
+<plist version="1.0">
+<dict>
+    <key>DesktopApplicationName</key>
+    <string>GWorkspace</string>
+    <key>DesktopApplicationSelName</key>
+    <string>gworkspace</string>
+    <key>hidedock</key>
+    <true/>
+</dict>
+</plist>

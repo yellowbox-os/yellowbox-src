@@ -8,5 +8,7 @@
     <string>gworkspace</string>
     <key>hidedock</key>
     <true/>
+    <key>defaulteditor</key>
+    <string>TextEdit.app</string>
 </dict>
 </plist>

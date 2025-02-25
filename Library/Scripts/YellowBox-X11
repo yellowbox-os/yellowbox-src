@@ -2,4 +2,4 @@
 
 . /System/Library/Makefiles/GNUstep.sh
 wmaker --no-dock --no-clip --no-autolaunch --no-drawer --dont-restore --static &
-openapp GWorkspace
+openapp Workspace

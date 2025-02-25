@@ -39,7 +39,7 @@ system: check_root
 	  cd $$WORKDIR/libs-base && ./configure --with-installation-domain=SYSTEM && gmake -j"${CPUS}" || exit 1 && gmake install && gmake clean; \
 	  cd $$WORKDIR/libs-gui && ./configure && gmake -j"${CPUS}" || exit 1 || exit 1 && gmake install; \
 	  cd $$WORKDIR/libs-back && export fonts=no && ./configure && gmake -j"${CPUS}" || exit 1 && gmake install; \
-	  cd $$WORKDIR/apps-gworkspace && ./configure && gmake && gmake install; \
+	  cd $$WORKDIR/workspace && ./configure && gmake && gmake install; \
           cd $$WORKDIR/plugins-themes-nesedahrik/NesedahRik.theme && gmake && gmake install && gmake clean; \
 	fi;
 

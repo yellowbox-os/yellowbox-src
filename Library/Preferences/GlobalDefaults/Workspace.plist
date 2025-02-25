@@ -10,5 +10,21 @@
     <true/>
     <key>defaulteditor</key>
     <string>TextEdit.app</string>
+    <key>desktopinfo</key>
+    <dict>
+        <key>backcolor</key>
+        <dict>
+            <key>alpha</key>
+            <real>1</real>
+            <key>blue</key>
+            <real>0.439</real>
+            <key>green</key>
+            <real>0.403</real>
+            <key>red</key>
+            <real>0.372</real>
+        </dict>
+        <key>usebackimage</key>
+        <false/>
+    </dict>
 </dict>
 </plist>

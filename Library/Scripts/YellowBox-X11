@@ -1,5 +1,27 @@
 #!/bin/sh
 
+# Source GNUstep environment
 . /System/Library/Makefiles/GNUstep.sh
-wmaker --no-dock --no-clip --no-autolaunch --no-drawer --dont-restore --static &
+
+# Start XFCE settings daemon
+xfsettingsd &
+
+# Start clipboard manager
+xfce4-clipman &
+
+# Start D-Bus
+if ! pgrep -x "dbus-daemon" > /dev/null; then
+    eval "$(dbus-launch --sh-syntax --exit-with-session)"
+fi
+
+# Start XFWM4 (window manager) with no compositor
+xfwm4 --compositor=off &
+
+# Start notification daemon
+xfce4-notifyd &
+
+# Start PolicyKit agent for authentication dialogs
+/usr/libexec/polkit-gnome-authentication-agent-1 &
+
+# Start GNUstep Workspace
 openapp Workspace

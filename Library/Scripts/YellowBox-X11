@@ -17,11 +17,5 @@ fi
 # Start XFWM4 (window manager) with no compositor
 xfwm4 &
 
-# Start notification daemon
-xfce4-notifyd &
-
-# Start PolicyKit agent for authentication dialogs
-/usr/libexec/polkit-gnome-authentication-agent-1 &
-
 # Start GNUstep Workspace
 openapp Workspace

@@ -40,7 +40,7 @@ system: check_root
 	  cd $$WORKDIR/libs-gui && ./configure && gmake -j"${CPUS}" || exit 1 || exit 1 && gmake install && gmake clean; \
 	  cd $$WORKDIR/libs-back && export fonts=no && ./configure && gmake -j"${CPUS}" || exit 1 && gmake install && gmake clean; \
 	  cd $$WORKDIR/workspace && ./configure && gmake && gmake install && gmake clean; \
-          cd $$WORKDIR/plugins-themes-nesedahrik/NesedahRik.theme && gmake && gmake install && gmake clean; \
+          cd $$WORKDIR/plugins-themes-Gtk && gmake && gmake install && gmake clean; \
 	fi;
 
 local: check_root

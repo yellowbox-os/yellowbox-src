@@ -8,7 +8,9 @@
     <string>NSMacintoshInterfaceStyle</string>
     <key>NSMenuInterfaceStyle</key>
     <string>NSMacintoshInterfaceStyle</string>
+    <key>GSSuppressAppIcon</key>
+    <string>YES</string>
     <key>GSTheme</key>
-    <string>Nesedah</string>
+    <string>Gtk</string>
 </dict>
 </plist>

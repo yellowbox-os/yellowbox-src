@@ -29,3 +29,6 @@
 [submodule "workspace"]
 	path = workspace
 	url = https://github.com/yellowbox-os/workspace.git
+[submodule "plugins-themes-Gtk"]
+	path = plugins-themes-Gtk
+	url = https://github.com/yellowbox-os/plugins-themes-Gtk.git

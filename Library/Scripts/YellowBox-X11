@@ -15,7 +15,7 @@ if ! pgrep -x "dbus-daemon" > /dev/null; then
 fi
 
 # Start XFWM4 (window manager) with no compositor
-xfwm4 &
+xfwm4 & sleep 1 &&
 
 # Start GNUstep Workspace
 openapp Workspace

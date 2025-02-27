@@ -15,7 +15,7 @@ if ! pgrep -x "dbus-daemon" > /dev/null; then
 fi
 
 # Start XFWM4 (window manager) with no compositor
-xfwm4 --compositor=off &
+xfwm4 &
 
 # Start notification daemon
 xfce4-notifyd &

@@ -32,3 +32,6 @@
 [submodule "plugins-themes-Gtk"]
 	path = plugins-themes-Gtk
 	url = https://github.com/yellowbox-os/plugins-themes-Gtk.git
+[submodule "libs-dbuskit"]
+	path = libs-dbuskit
+	url = https://github.com/gnustep/libs-dbuskit

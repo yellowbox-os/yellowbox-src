@@ -42,6 +42,7 @@ system: check_root
 	  cd $$WORKDIR/workspace && ./configure && gmake && gmake install && gmake clean; \
       cd $$WORKDIR/plugins-themes-Gtk && gmake && gmake install && gmake clean; \
 	  cd $$WORKDIR/apps-systempreferences && gmake && gmake install && gmake clean; \
+	  cd $$WORKDIR/dock && gmake && gmake install && gmake clean; \
 	fi;
 
 local: check_root

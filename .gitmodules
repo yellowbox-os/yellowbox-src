@@ -34,3 +34,6 @@
 [submodule "apps-systempreferences"]
 	path = apps-systempreferences
 	url = https://github.com/gnustep/apps-systempreferences
+[submodule "dock"]
+	path = dock
+	url = https://github.com/yellowbox-os/dock

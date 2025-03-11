@@ -42,6 +42,7 @@ system: check_root
 	  cd $$WORKDIR/workspace && ./configure && gmake && gmake install && gmake clean; \
       cd $$WORKDIR/plugins-themes-Gtk && gmake && gmake install && gmake clean; \
 	  cd $$WORKDIR/libs-dbuskit && gmake && gmake install && gmake clean; \
+	  cd $$WORKDIR/apps-systempreferences && gmake && gmake install && gmake clean; \
 	fi;
 
 local: check_root
@@ -56,6 +57,9 @@ local: check_root
           echo "CPUS is set to: $$CPUS"; \
           echo "GNUSTEP_INSTALLATION_DOMAIN is set to: $$GNUSTEP_INSTALLATION_DOMAIN"; \
           echo "WORKDIR is set to: $$WORKDIR"; \
+		  cd $$WORKDIR/gs-terminal/gap/ported-apps/Games && gmake && gmake install && gmake clean; \
+		  cd $$WORKDIR/gs-terminal/gap/system-apps/Zipper && gmake && gmake install && gmake clean; \
+		  cd $$WORKDIR/gs-terminal/gap/user-apps/InnerSpace && gmake && gmake install && gmake clean; \
           cd $$WORKDIR/gs-terminal/TerminalKit && gmake && gmake install && gmake clean; \
           cd $$WORKDIR/gs-terminal/Terminal && gmake && gmake install && gmake clean; \
 		  cd $$WORKDIR/gs-textedit && gmake && gmake install && gmake clean; \

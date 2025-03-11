@@ -31,3 +31,6 @@
 [submodule "libs-dbuskit"]
 	path = libs-dbuskit
 	url = https://github.com/gnustep/libs-dbuskit
+[submodule "apps-systempreferences"]
+	path = apps-systempreferences
+	url = https://github.com/gnustep/apps-systempreferences

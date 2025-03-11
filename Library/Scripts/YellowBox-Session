@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# Source GNUstep environment
+. /System/Library/Makefiles/GNUstep.sh
+
+# Start the Dock
+openapp Dock &&
+
+# Start the Workspace
+openapp Workspace &
+
+# Stop the Dock when Workspace exits
+pkill -f Dock

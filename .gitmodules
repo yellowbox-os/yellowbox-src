@@ -13,10 +13,6 @@
 [submodule "tools-make"]
 	path = tools-make
 	url = https://github.com/gnustep/tools-make.git
-[submodule "gs-desktop"]
-	path = gs-desktop
-	url = https://github.com/yellowbox-os/gs-desktop
-	branch = working-firefox-wrapper
 [submodule "gap"]
 	path = gap
 	url = https://github.com/gnustep/gap

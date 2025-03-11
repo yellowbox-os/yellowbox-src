@@ -40,8 +40,8 @@ system: check_root
 	  cd $$WORKDIR/libs-gui && ./configure && gmake -j"${CPUS}" || exit 1 || exit 1 && gmake install && gmake clean; \
 	  cd $$WORKDIR/libs-back && export fonts=no && ./configure && gmake -j"${CPUS}" || exit 1 && gmake install && gmake clean; \
 	  cd $$WORKDIR/workspace && ./configure && gmake && gmake install && gmake clean; \
-          cd $$WORKDIR/plugins-themes-Gtk && gmake && gmake install && gmake clean; \
-          cd $$WORKDIR/libs-dbuskit && gmake && gmake install && gmake clean; \
+      cd $$WORKDIR/plugins-themes-Gtk && gmake && gmake install && gmake clean; \
+	  cd $$WORKDIR/libs-dbuskit && gmake && gmake install && gmake clean; \
 	fi;
 
 local: check_root
@@ -56,11 +56,9 @@ local: check_root
           echo "CPUS is set to: $$CPUS"; \
           echo "GNUSTEP_INSTALLATION_DOMAIN is set to: $$GNUSTEP_INSTALLATION_DOMAIN"; \
           echo "WORKDIR is set to: $$WORKDIR"; \
-          cd $$WORKDIR/gs-desktop/Applications/WrapperFactory && gmake && gmake install && gmake clean; \
-	  mkdir /Local/Applications/Firefox.app && cp -R $$WORKDIR/gs-desktop/extra-apps/Firefox.app/* /Local/Applications/Firefox.app/; \
           cd $$WORKDIR/gs-terminal/TerminalKit && gmake && gmake install && gmake clean; \
           cd $$WORKDIR/gs-terminal/Terminal && gmake && gmake install && gmake clean; \
-	  cd $$WORKDIR/gs-textedit && gmake && gmake install && gmake clean; \
+		  cd $$WORKDIR/gs-textedit && gmake && gmake install && gmake clean; \
         fi;
 
 

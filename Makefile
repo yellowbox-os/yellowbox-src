@@ -31,6 +31,7 @@ system: check_root
 	  mkdir -p $$WORKDIR/libobjc2/Build; \
 	  cd $$WORKDIR/libobjc2/Build && pwd && ls && cmake .. \
 	    -DGNUSTEP_INSTALL_TYPE=SYSTEM \
+            -DCMAKE_POLICY_VERSION_MINIMUM=3.5 \
 	    -DCMAKE_BUILD_TYPE=Release \
 	    -DCMAKE_C_COMPILER=clang \
 	    -DCMAKE_CXX_COMPILER=clang++; \
@@ -40,7 +41,7 @@ system: check_root
 	  cd $$WORKDIR/libs-gui && ./configure && gmake -j"${CPUS}" || exit 1 || exit 1 && gmake install && gmake clean; \
 	  cd $$WORKDIR/libs-back && export fonts=no && ./configure && gmake -j"${CPUS}" || exit 1 && gmake install && gmake clean; \
 	  cd $$WORKDIR/workspace && ./configure && gmake && gmake install && gmake clean; \
-      cd $$WORKDIR/plugins-themes-Gtk && gmake && gmake install && gmake clean; \
+          cd $$WORKDIR/plugins-themes-Gtk && gmake && gmake install && gmake clean; \
 	  cd $$WORKDIR/apps-systempreferences && gmake && gmake install && gmake clean; \
 	  cd $$WORKDIR/dock && gmake && gmake install && gmake clean; \
 	fi;

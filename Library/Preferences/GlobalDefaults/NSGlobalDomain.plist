@@ -4,6 +4,8 @@
 <dict>
     <key>GSFileBrowserHideDotFiles</key>
     <string>YES</string>
+    <key>GSAppOwnsMiniwindow</key>
+    <integer>0</integer>
     <key>NSInterfaceStyleDefault</key>
     <string>NSMacintoshInterfaceStyle</string>
     <key>NSMenuInterfaceStyle</key>

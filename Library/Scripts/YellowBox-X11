@@ -3,8 +3,20 @@
 # Source GNUstep environment
 . /System/Library/Makefiles/GNUstep.sh
 
-# Start XFCE
-startxfce4 & sleep 2 &&
+# Start XFCE settings daemon
+xfsettingsd &
+
+# Start clipboard manager
+xfce4-clipman &
+
+# Start XFWM4 (window manager)
+xfwm4 & sleep 1 &&
+
+# Start Panel
+xfce4-panel & sleep 1 &&
+
+# Start Desktop
+xfdesktop & sleep 1 &&
 
 # Start GNUstep Workspace
 openapp Workspace

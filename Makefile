@@ -58,12 +58,12 @@ local: check_root
           echo "CPUS is set to: $$CPUS"; \
           echo "GNUSTEP_INSTALLATION_DOMAIN is set to: $$GNUSTEP_INSTALLATION_DOMAIN"; \
           echo "WORKDIR is set to: $$WORKDIR"; \
-		  cd $$WORKDIR/gap/ported-apps/Games && gmake && gmake install && gmake clean; \
-		  cd $$WORKDIR/gap/system-apps/Zipper && gmake && gmake install && gmake clean; \
-		  cd $$WORKDIR/gap/user-apps/InnerSpace && gmake && gmake install && gmake clean; \
+          cd $$WORKDIR/gap/ported-apps/Games && gmake && gmake install && gmake clean; \
+          cd $$WORKDIR/gap/system-apps/Zipper && gmake && gmake install && gmake clean; \
+          cd $$WORKDIR/gap/user-apps/InnerSpace && gmake && gmake install && gmake clean; \
           cd $$WORKDIR/gs-terminal/TerminalKit && gmake && gmake install && gmake clean; \
           cd $$WORKDIR/gs-terminal/Terminal && gmake && gmake install && gmake clean; \
-		  cd $$WORKDIR/gs-textedit && gmake && gmake install && gmake clean; \
+          cd $$WORKDIR/gs-textedit && gmake && gmake install && gmake clean; \
         fi;
 
 

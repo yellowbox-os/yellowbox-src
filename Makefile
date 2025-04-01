@@ -44,6 +44,7 @@ system: check_root
           cd $$WORKDIR/plugins-themes-Gtk && gmake && gmake install && gmake clean; \
 	  cd $$WORKDIR/apps-systempreferences && gmake && gmake install && gmake clean; \
 	  cd $$WORKDIR/dock && gmake && gmake install && gmake clean; \
+          ln -s /System/Library/Makefiles/GNUstep.sh /etc/profile.d/GNUstep.sh; \
 	fi;
 
 local: check_root
@@ -73,6 +74,7 @@ uninstall: check_root
 	  rm -rf /System; \
 	  removed="/System"; \
 	  echo "Removed YellowBox System Domain /System"; \
+          rm /etc/profile.d/GNUstep.sh; \
 	fi; \
 	if [ -d "/Local" ]; then \
 	  rm -rf /Local; \

@@ -4,7 +4,7 @@
 . /System/Library/Makefiles/GNUstep.sh
 
 # Start XFCE
-startxfce4 &
+startxfce4 & sleep 1 &&
 
 # Start GNUstep Workspace
 openapp Workspace

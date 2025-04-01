@@ -10,9 +10,9 @@ xfsettingsd &
 xfce4-clipman &
 
 # Start D-Bus
-if ! pgrep -x "dbus-daemon" > /dev/null; then
-    eval "$(dbus-launch --sh-syntax --exit-with-session)"
-fi
+#if ! pgrep -x "dbus-daemon" > /dev/null; then
+#    eval "$(dbus-launch --sh-syntax --exit-with-session)"
+#fi
 
 # Start XFWM4 (window manager)
 xfwm4 & sleep 1 &&

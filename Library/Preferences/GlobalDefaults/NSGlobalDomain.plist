@@ -2,6 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <key>GSReservedMountNames</key>
+    <array>
+        <string>proc</string>
+        <string>devpts</string>
+        <string>shm</string>
+        <string>usbdevfs</string>
+        <string>devpts</string>
+        <string>sysfs</string>
+        <string>tmpfs</string>
+        <string>iso9660</string>
+    </array>
     <key>GSFileBrowserHideDotFiles</key>
     <string>YES</string>
     <key>GSAppOwnsMiniwindow</key>

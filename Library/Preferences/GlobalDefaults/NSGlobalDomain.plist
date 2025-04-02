@@ -13,6 +13,12 @@
         <string>tmpfs</string>
         <string>iso9660</string>
     </array>
+    <key>GSRemovableMediaPaths</key>
+    <array>
+        <string>/mnt/floppy</string>
+        <string>/mnt/cdrom</string>
+        <string>/run/archiso</string>
+    </array>
     <key>GSFileBrowserHideDotFiles</key>
     <string>YES</string>
     <key>GSAppOwnsMiniwindow</key>

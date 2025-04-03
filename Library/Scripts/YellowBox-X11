@@ -15,5 +15,8 @@ xfwm4 & sleep 1 &&
 # Start Panel
 xfce4-panel & sleep 1 &&
 
+# Start desktop
+xfdesktop & sleep 1 &&
+
 # Start GNUstep Workspace
 openapp Workspace

@@ -68,16 +68,21 @@ local: check_root
 
 uninstall: check_root
 	@removed=""; \
+	if [ -d "/Applications" ]; then \
+	  rm -rf /Applications; \
+	  removed="/Applications"; \
+	  echo "Removed /Applications"; \
+	fi; \
+	if [ -d "/Library" ]; then \
+	  rm -rf /Library; \
+	  removed="$$removed /Library"; \
+	  echo "Removed /Library"; \
+	fi; \
 	if [ -d "/System" ]; then \
 	  rm -rf /System; \
 	  removed="/System"; \
 	  echo "Removed YellowBox System Domain /System"; \
           rm /etc/profile.d/GNUstep.sh; \
-	fi; \
-	if [ -d "/Local" ]; then \
-	  rm -rf /Local; \
-	  removed="$$removed /Local"; \
-	  echo "Removed YellowBox Local Domain /Local"; \
 	fi; \
 	if [ -n "$$removed" ]; then \
 	  echo "Uninstallation complete: $$removed"; \

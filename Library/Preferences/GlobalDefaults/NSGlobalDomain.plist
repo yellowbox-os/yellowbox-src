@@ -17,7 +17,7 @@
     <array>
         <string>/mnt/floppy</string>
         <string>/mnt/cdrom</string>
-        <string>/System/Volumes</string>
+        <string>/Volumes</string>
     </array>
     <key>GSFileBrowserHideDotFiles</key>
     <string>YES</string>

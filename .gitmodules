@@ -37,3 +37,6 @@
 [submodule "dock"]
 	path = dock
 	url = https://github.com/yellowbox-os/dock
+[submodule "gs-desktop"]
+	path = gs-desktop
+	url = https://github.com/yellowbox-os/gs-desktop.git

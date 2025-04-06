@@ -31,5 +31,9 @@
     <string>YES</string>
     <key>GSTheme</key>
     <string>Gtk</string>
+    <key>NSFont</key>
+    <string>Charcoal</string>
+    <key>NSFontSize</key>
+    <string>12.0</string>
 </dict>
 </plist>
